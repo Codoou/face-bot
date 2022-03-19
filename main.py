@@ -30,7 +30,6 @@ with open(FILESTORAGE, "r") as f:
             print("we done did it")
             sys.exit(0)
 
-    # f.write(id)
 with open(FILESTORAGE, "a") as e:
     e.write(id)
 
